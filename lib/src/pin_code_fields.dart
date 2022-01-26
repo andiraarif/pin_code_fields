@@ -451,7 +451,7 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
                   textCapitalization: widget.textCapitalization,
                   validator: widget.validator,
                   onSaved: widget.onSaved,
-                  autovalidate: widget.autoValidate,
+                  autovalidateMode: AutovalidateMode.disabled,
                   inputFormatters: [
                     ...widget.inputFormatters,
                     LengthLimitingTextInputFormatter(
